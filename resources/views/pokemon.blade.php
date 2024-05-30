@@ -6,7 +6,7 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <style>
         body {
-            background-image: url('https://i.ibb.co/GFnZggz/gratis-png-pokemon-go-pikachu-ash-ketchum-pokeball-thumbnail.png');
+            background-image: url('https://i.ibb.co/hCZ9wBR/pngtree-pokemon-artwork-by-the-flint-eclectix-picture-image-2778899.png');
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
