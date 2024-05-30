@@ -6,7 +6,7 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <style>
         body {
-            background-image: url('https://i.ibb.co/gj6MtVh/icegif-5810.gif');
+            background-image: url('https://i.ibb.co/GFnZggz/gratis-png-pokemon-go-pikachu-ash-ketchum-pokeball-thumbnail.png');
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
@@ -24,11 +24,7 @@
         #pokemonDetails img {
             width: 300px;
             height: 300px;
-            border-radius: 50%;
-            padding: 20px;
-            background-color: white;
         }
-
 
         .pokedex-title {
             font-family: 'Pokemon Solid', sans-serif;
@@ -80,7 +76,7 @@
 
         function generatePokemonDetailsHTML(pokemonData) {
             var html = '<h2 class="text-capitalize">' + pokemonData.name + '</h2>';
-            html += '<div class="rounded-circle p-4 bg-white"><img src="' + pokemonData.sprites.front_default + '" alt="' + pokemonData.name + '" class="img-fluid"></div>';
+            html += '<img src="' + pokemonData.sprites.front_default + '" alt="' + pokemonData.name + '" class="img-fluid">';
             html += '<h3>Abilities:</h3><ul class="list-group">';
             pokemonData.abilities.forEach(function(ability) {
                 html += '<li class="list-group-item">' + ability.ability.name + '</li>';
